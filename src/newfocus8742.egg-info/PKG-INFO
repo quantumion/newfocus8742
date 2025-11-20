@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: newfocus8742
+Version: 0.2
+Summary: Driver for New Focus/Newport 8742 four channel open loop piezo motor controller
+Author-email: Robert Jördens <rj@quartiq.de>
+License-Expression: LGPL-3.0-or-later
+Project-URL: Homepage, https://github.com/quartiq/newfocus8742
+Project-URL: Download, https://github.com/quartiq/newfocus8742
+Requires-Python: >=3.13
+Description-Content-Type: text/x-rst
+Requires-Dist: sipyco
+Requires-Dist: pyusb
+Requires-Dist: libusb-package
+
+New Focus 8742 driver
+=====================
+
+.. image:: https://gitlab.com/quartiq/newfocus8742/badges/master/pipeline.svg
+    :target: https://gitlab.com/quartiq/newfocus8742/commits/master
+    :alt: CI/CD Pipeline Status
+
+.. image:: https://readthedocs.org/projects/newfocus8742/badge/?version=latest
+    :target: http://newfocus8742.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://anaconda.org/quartiq/newfocus8742/badges/installer/conda.svg
+    :target: https://anaconda.org/quartiq/newfocus8742
+
+Driver for New Focus/Newport 8742 four channel open loop piezo motor controller.
+
+https://www.newport.com/medias/sys_master/images/images/h9a/h38/9100236390430/90066734D-8742-Manual.pdf

@@ -15,7 +15,7 @@ def get_argparser():
     parser.add_argument("--simulation", action="store_true",
                         help="simulation device")
 
-    common_args.simple_network_args(parser, 3257)
+    common_args.simple_network_args(parser, 3259)
     common_args.verbosity_args(parser)
     return parser
 

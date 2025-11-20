@@ -10,8 +10,8 @@ readme = "README.rst"
 authors = [
     { name = "Robert Jördens", email = "rj@quartiq.de" }
 ]
+license = "LGPL-3.0-or-later"
 
-license = { text = "LGPLv3+" }
 requires-python = ">=3.13"
 dependencies = [
     "sipyco",
@@ -21,6 +21,9 @@ dependencies = [
 
 [tool.uv.sources]
 sipyco = { git = "https://github.com/m-labs/sipyco.git", rev = "v1.8" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [project.urls]
 Homepage = "https://github.com/quartiq/newfocus8742"

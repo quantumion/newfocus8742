@@ -1,0 +1,15 @@
+README.rst
+pyproject.toml
+src/newfocus8742/__init__.py
+src/newfocus8742/aqctl_newfocus8742.py
+src/newfocus8742/protocol.py
+src/newfocus8742/sim.py
+src/newfocus8742/tcp.py
+src/newfocus8742/usb.py
+src/newfocus8742.egg-info/PKG-INFO
+src/newfocus8742.egg-info/SOURCES.txt
+src/newfocus8742.egg-info/dependency_links.txt
+src/newfocus8742.egg-info/entry_points.txt
+src/newfocus8742.egg-info/requires.txt
+src/newfocus8742.egg-info/top_level.txt
+src/newfocus8742/test/__init__.py
