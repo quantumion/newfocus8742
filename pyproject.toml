@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "newfocus8742"
+version = "0.2"
+description = "Driver for New Focus/Newport 8742 four channel open loop piezo motor controller"
+readme = "README.rst"
+authors = [
+    { name = "Robert Jördens", email = "rj@quartiq.de" }
+]
+
+license = { text = "LGPLv3+" }
+requires-python = ">=3.13"
+dependencies = [
+    "sipyco",
+    "pyusb",
+    "libusb-package",
+]
+
+[tool.uv.sources]
+sipyco = { git = "https://github.com/m-labs/sipyco.git", rev = "v1.8" }
+
+[project.urls]
+Homepage = "https://github.com/quartiq/newfocus8742"
+Download = "https://github.com/quartiq/newfocus8742"
+
+[project.scripts]
+aqctl_newfocus8742 = "newfocus8742.aqctl_newfocus8742:main"
